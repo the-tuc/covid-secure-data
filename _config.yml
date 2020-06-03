@@ -1,0 +1,4 @@
+---
+data_dir: "."
+update_frequency: Weekly
+permalink: pretty
