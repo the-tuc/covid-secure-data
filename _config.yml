@@ -1,4 +1,3 @@
 ---
-data_dir: "."
+data_source: "."
 update_frequency: Weekly
-permalink: pretty
