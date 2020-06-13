@@ -20,8 +20,8 @@ layout: default
 
   <p property="dct:publisher" resource="{{ site.data.datapackage.publishers.first['web'] }}">
   	<strong property="rdfs:label">Publisher</strong><br />
-  	<a href="{{ site.data.datapackage.publishers.first['web'] }}" about="{{ site.data.datapackage.publishers.first['web'] }}" property="foaf:homepage">
-  		<span property="foaf:name">{{ site.data.datapackage.publishers.first['name'] }}</span>
+  	<a href="http://tuc.org.uk/" about="http://tuc.org.uk/" property="foaf:homepage">
+  		<span property="foaf:name">Trades Union Congress</span>
   	</a>
   </p>
 
@@ -61,6 +61,7 @@ layout: default
     </tbody>
   </table>
 
+	  
   <h2>Schemas</h2>
 
   {% for resource in site.data.datapackage.resources %}
